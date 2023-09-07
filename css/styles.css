@@ -5,7 +5,7 @@
   --color-white: #fff;
   --color-cloud: #f4f4fd;
   --color-put: #404bbf;
-  --color-block: #E7E9FC;
+  --color-block: #e7e9fc;
 }
 
 body {
@@ -55,6 +55,7 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  border-bottom: 1px solid var(--color-block);
 }
 
 .header-nav {
@@ -200,11 +201,15 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-primary);
-  padding-bottom: 32px;
+  padding-bottom: 72px;
 }
 .team-block {
   background-color: var(--color-white);
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .block-text {
   padding: 32px 16px;
@@ -245,7 +250,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
- 
 }
 
 .portfolio-item {
