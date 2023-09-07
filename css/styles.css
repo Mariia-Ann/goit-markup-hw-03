@@ -51,14 +51,10 @@ ul {
 .header {
    border-bottom: 1px solid var(--color-block);
 }
-.header-container {
+.header-inner {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-}
-.header-inner {
-  
- 
 }
 
 .header-nav {
