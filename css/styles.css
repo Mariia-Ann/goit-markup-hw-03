@@ -41,7 +41,7 @@ ul {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -59,9 +59,7 @@ ul {
 
 .header-nav {
   display: flex;
-  gap: 40px;
   align-items: center;
-  flex-grow: 1;
 }
 
 .link-logo {
@@ -82,8 +80,7 @@ ul {
 .header-list {
   display: flex;
   gap: 40px;
-  flex-grow: 1;
-  justify-content: center;
+
 }
 .header-item {
   line-height: 1.5;
@@ -138,6 +135,7 @@ background-color: var(--color-primary);
   justify-content: center;
   align-items: center;
   max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 .hero-button {
